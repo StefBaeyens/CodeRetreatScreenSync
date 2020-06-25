@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application
+    x:Class="CodeRetreatScreenSync.App"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:base="clr-namespace:CodeRetreatScreenSync.ViewModels.Base;assembly=CodeRetreatScreenSync"
+    xmlns:converters="clr-namespace:CodeRetreatScreenSync.Converters;assembly=CodeRetreatScreenSync"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <Application.Resources>
+        <ResourceDictionary>
+            <base:ViewModelLocator xmlns:vm="clr-namespace:CodeRetreatScreenSync.ViewModels.Base;assembly=CodeRetreatScreenSync" x:Key="Locator" />
+
+            <converters:VectorIntToRectangleConverter x:Key="VectorIntToRectangleConverter" />
+            <converters:VectorToStringConverter x:Key="VectorToStringConverter" />
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

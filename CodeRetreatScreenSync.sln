@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29926.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeRetreatScreenSync.Android", "CodeRetreatScreenSync\CodeRetreatScreenSync.Android\CodeRetreatScreenSync.Android.csproj", "{DFA11B3D-0B12-4985-A4AE-2C13A5FFDAB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeRetreatScreenSync", "CodeRetreatScreenSync\CodeRetreatScreenSync\CodeRetreatScreenSync.csproj", "{ED7E642E-892E-4F32-B9B6-4C2B9F72C8B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFA11B3D-0B12-4985-A4AE-2C13A5FFDAB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFA11B3D-0B12-4985-A4AE-2C13A5FFDAB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFA11B3D-0B12-4985-A4AE-2C13A5FFDAB6}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{DFA11B3D-0B12-4985-A4AE-2C13A5FFDAB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFA11B3D-0B12-4985-A4AE-2C13A5FFDAB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFA11B3D-0B12-4985-A4AE-2C13A5FFDAB6}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{ED7E642E-892E-4F32-B9B6-4C2B9F72C8B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED7E642E-892E-4F32-B9B6-4C2B9F72C8B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED7E642E-892E-4F32-B9B6-4C2B9F72C8B7}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{ED7E642E-892E-4F32-B9B6-4C2B9F72C8B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED7E642E-892E-4F32-B9B6-4C2B9F72C8B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED7E642E-892E-4F32-B9B6-4C2B9F72C8B7}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {59D97C2C-8B0B-42AA-9A57-888366EF472A}
+	EndGlobalSection
+EndGlobal
